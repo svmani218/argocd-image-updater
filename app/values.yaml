@@ -1,0 +1,9 @@
+master:
+  persistence:
+    enabled: true
+    size: 100Mi
+data:
+  persistence:
+    enabled: true
+    size: 100Mi
+
