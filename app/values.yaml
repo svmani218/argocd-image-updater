@@ -10,7 +10,7 @@ elasticsearch:
   image:
     registry: docker.io
     repository: docker.io/svmani218/elasticsearch
-    tag: 8.14.1
+    tag: 8.14.2
   volumePermissions:
     registry: docker.io
     repository: svmani218/os-shell
