@@ -9,8 +9,8 @@ elasticsearch:
       size: 100Mi
   image:
     registry: docker.io
-    repository: svmani218/elasticsearch
-    tag: 8.13.4
+    repository: docker.io/svmani218/elasticsearch
+    tag: 8.14.1
   volumePermissions:
     registry: docker.io
     repository: svmani218/os-shell
