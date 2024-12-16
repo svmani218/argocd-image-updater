@@ -6,4 +6,12 @@ data:
   persistence:
     enabled: true
     size: 100Mi
+image:
+  registry: docker.io
+  repository: svmani218/elasticsearch
+  tag: 8.13.3-debian-12-r3
 
+volumePermissions:
+  registry: docker.io
+  repository: svmani218/os-shell
+  tag: 12-debian-12-r21
