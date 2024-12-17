@@ -13,5 +13,5 @@ elasticsearch:
     tag: 8.14.2
   volumePermissions:
     registry: docker.io
-    repository: svmani218/os-shell
+    repository: docker.io/svmani218/os-shell
     tag: 12-debian-12-r21
