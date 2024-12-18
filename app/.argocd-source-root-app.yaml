@@ -6,3 +6,9 @@ helm:
   - name: elasticsearch.image.tag
     value: 8.14.2
     forcestring: true
+  - name: image.name
+    value: docker.io/svmani218/elasticsearch
+    forcestring: true
+  - name: dependencies.0.version
+    value: 8.14.2
+    forcestring: true
